@@ -82,4 +82,19 @@ img {
   border: none;
   color: #fff;
  }
- 
+ .loginLinks {
+  /* Don't set flex-basis as wrap will overrule it just stop grow and shrink */
+  flex: 0;
+ }
+ .burgerMenu {
+  /* Don't set flex-basis as wrap will overrule it just stop grow and shrink*/
+  flex: 0;
+  padding: 13px 11px 0 11px;
+ }
+ .logo {
+  /* Don't set flex-basis as wrap will overrule it just set to grow and shrink */
+  flex: 1;
+ }
+ .search {
+  flex-basis: 100%;
+ }
