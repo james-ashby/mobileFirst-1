@@ -60,3 +60,16 @@ img {
 .search > form {
   display: flex;
  }
+ input[type="search"] {
+  flex-basis: 80%;
+  padding: 12px 5px;
+  border: 1px solid #ccc;
+  border-right: none;
+  -webkit-appearance: none;
+ }
+ button[type="submit"] {
+  flex-basis: 20%;
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+ }
