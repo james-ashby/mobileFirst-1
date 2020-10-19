@@ -103,6 +103,6 @@ input[type=text], input[type=email], input[type=date], textarea
   width: 200px;
   padding: 10px;
 }
-form>div{
+/*form>div{
   margin-bottom: 15px;
-}
+}*/
