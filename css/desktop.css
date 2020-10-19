@@ -91,3 +91,18 @@ main {
   padding: 5px 0;
   flex-basis: 40%;
  }
+
+ /* Form Styling */
+
+ label{
+  display: inline-block;
+  width: 120px;
+}
+input[type=text], input[type=email], input[type=date], textarea
+{
+  width: 200px;
+  padding: 10px;
+}
+form>div{
+  margin-bottom: 15px;
+}
