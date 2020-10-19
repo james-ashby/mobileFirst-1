@@ -167,3 +167,9 @@ img {
  .footerLinks li a:hover {
   text-decoration: underline;
  }
+
+ /* Form Styling */
+
+ label{
+   display: block;
+ }
